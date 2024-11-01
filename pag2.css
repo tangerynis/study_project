@@ -6,6 +6,7 @@
 
 
 body {
+    overflow-x: hidden;
     margin: 0;
     height: 100vh;
     width: 100vw;
@@ -19,7 +20,7 @@ body {
 
 .search-box {
     position: absolute;
-    top: 35%;
+    top: 27%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgb(146, 47, 47);
@@ -120,13 +121,15 @@ h2 {
 .rd-price{
     font-size: 25px;
     margin-left: 55%;
-    color: rgb(99, 7, 7);
+    color: rgb(255, 255, 255);
 }
 
 .rd-text{
     font-size: 30px;
-    margin-left: 65%;
+    margin-left: 50%;
     margin-top: 1px;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
 }
 
 
@@ -140,7 +143,7 @@ h2 {
 .macu-price{
     font-size: 25px;
     margin-left: 125%;
-    color: rgb(99, 7, 7);
+    color: rgb(255, 255, 255);
 }
 
 .macu-text{
@@ -148,6 +151,7 @@ h2 {
     margin-left: 125%;
     margin-top: 1px;
     white-space: nowrap;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -161,14 +165,15 @@ h2 {
 .vs-price{
     font-size: 25px;
     margin-left: 195%;
-    color: rgb(99, 7, 7);
+    color: rgb(255, 255, 255);
 }
 
 .vs-text{
-    font-size: 20px;
-    margin-left: 200%;
+    font-size: 25px;
+    margin-left: 190%;
     margin-top: 1px;
     white-space: nowrap;
+    color: rgb(255, 255, 255);
 }
 
 .box {
